@@ -14,12 +14,13 @@
             <!--CAMPO DI TESTO-->
             <div>
                 <label for="text">Inserisci un testo</label>
-                <input type="text" id="text">
+                <!--NB. L'attributo Name serve per passare qul valore alla pagina di ricezione-->
+                <input type="text" id="text" name="testo">
             </div>
             <!--PAROLA DA RIMUOVERE-->
             <div>
-                <label for="">Parola da rimuovere</label>
-                <input type="text">
+                <label for="censored">Parola da rimuovere</label>
+                <input type="text" id="censored" name="censura">
             </div>
             <!--BOTTONE INVIO-->
             <div>
